@@ -1,0 +1,28 @@
+{
+  "name": "weather-forecast",
+  "version": "0.1.0",
+  "description": "Short period weather forecast notification",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "dependencies": {
+    "request": "~2.51.x",
+    "cheerio": "~0.18.x",
+    "cron": "~1.0.x",
+    "nodemailer": "~1.3.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artmaro/weather-forecast"
+  },
+  "keywords": [
+    "node",
+    "forecast",
+    "weather"
+  ],
+  "license": "MIT"
+}
